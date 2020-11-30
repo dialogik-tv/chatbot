@@ -1,0 +1,15 @@
+{
+  "name": "geierfogel-chatbot",
+  "version": "0.1.0",
+  "description": "The dialogikTV chatbot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Moritz <moritz@dialogik.tv>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "tmi.js": "^1.5.0"
+  }
+}
