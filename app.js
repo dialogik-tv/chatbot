@@ -2,7 +2,7 @@ const tmi = require('tmi.js');
 require("dotenv").config();
 
 const commands = {
-    "wsk": "Unter https://dialogik.tv/tools/value-chain findest du unsere Tools-Datenbank für Content Creatoren, filterbar nach der dialogikTV Content Creation Wertschöpfungskette – mehr hierzu gibt es unter https://www.twitch.tv/videos/791753769",
+    "wsk": "Unter https://dialogik.tv/tools findest du unsere Tools-Datenbank für Content Creatoren, filterbar nach der dialogikTV Content Creation Wertschöpfungskette – mehr hierzu gibt es unter https://www.twitch.tv/videos/791753769",
     "relevanz": "Der Relevanz-Wert beschreibt die Relevanz des jeweiligen Tools für die Inhaltserzeugung https://twitter.com/dialogikTV/status/1324084071845269506",
     "geiervogel": "Kennt ihr schon mein alter Ego? Den Geierfogel? Nein? Dann wird es allerhöchste Zeit. Mein unseriöser Zwilling quasi. Viel Spass, KRÄCHZ KRÄCHZ! https://www.twitch.tv/geierfogel",
     "discord": "Im dialogikTV-Discord findest du Hilfe zu allen Themen rund um das Streaming/Inhaltserzeugen sowie zum Webdevelopment http://discord.dialogik.tv",
@@ -39,12 +39,18 @@ client.on('connected', function(address, port) {
     client.join(process.env.CHANNEL).then((data) => {
         console.log(`I have successfully joined ${process.env.CHANNEL}`);
 
-        // User says something in chat? Add to userlist
         client.on('chat', function(channel, user, message, self) {
             if(message.startsWith("!")) {
-                message = message.substring(1);
-                if(commands.hasOwnProperty(message)) {
-                    client.say(process.env.CHANNEL, commands[message]);
+                if(message === '!geierfogel') {
+                    const commandList = Object.keys(commands).join(" ");
+                    const commandText = `Ich reagiere auf folgende Kommandos: ${commandList}`;
+                    client.say(process.env.CHANNEL, commandText);
+                }
+                else {
+                    message = message.substring(1);
+                    if(commands.hasOwnProperty(message)) {
+                        client.say(process.env.CHANNEL, commands[message]);
+                    }
                 }
             }
         });
