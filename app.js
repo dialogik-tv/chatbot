@@ -12,7 +12,8 @@ const commands = {
     "tools": "In unserer sagenhaften, wohlgeformten und ausserordentlich hilfreichen Sammlung von Tools, Apps und Scripten für Streamer und Inhaltserzeuger findest du alles, was dein Technikherz höher schlagen lässt https://dialogik.tv/tools",
     "allergiker": "Hinweis für Allergiker: Dieses Produkt kann Spuren von Satire und Sarkasmus enthalten.",
     "lurchbot": "Unser Lurchbot lurcht in verschiedenen deutschsprachigen Twitchkanälen (v.a. Science & Technology) und horcht, ob über \"dialogikTV\" geredet wird. Fundstellen werden direkt im dialogikTV-Discord gemeldet. Ansehen kann man sich das ganze im Discord https://dialogik.tv/discord im Kanal #twitch-chat-listener, den Quellcode hierzu findet ihr auf github https://github.com/dialogik-tv/lurchbot",
-    "indivelopment": "Ich develope dir dein ganz individuelles Overlay, welches du z.B. als Browserquelle bei OBS einbinden kannst. Mit Integration in den Twitch-Chat bzw. die Twitch-API. Ein Beispiel für so ein Indivelopment ist das Weather Overlay für @Freakydna (https://github.com/dialogik-tv/twitchchat-weather-obs-overlay)"
+    "indivelopment": "Ich develope dir dein ganz individuelles Overlay, welches du z.B. als Browserquelle bei OBS einbinden kannst. Mit Integration in den Twitch-Chat bzw. die Twitch-API. Ein Beispiel für so ein Indivelopment ist das Weather Overlay für @Freakydna (https://github.com/dialogik-tv/twitchchat-weather-obs-overlay)",
+    "commands": "Du suchst Kommandos? Frag den !geierfogel"
 };
 
 const options = {
