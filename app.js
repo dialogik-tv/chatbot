@@ -57,8 +57,6 @@ client.on('connected', function(address, port) {
                     message = message.substring(1);
                     if(commands.hasOwnProperty(message)) {
                         client.say(process.env.CHANNEL, commands[message]);
-                    } else {
-                        client.say(process.env.CHANNEL, `!${message}? Sagt mir nix... Check mal !commands`);
                     }
                 }
             }
