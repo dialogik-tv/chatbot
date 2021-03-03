@@ -43,16 +43,22 @@ client.on('connected', function(address, port) {
         console.log(`I have successfully joined ${process.env.CHANNEL}`);
 
         client.on('chat', function(channel, user, message, self) {
+            if(self) {
+                return;
+            }
+
             if(message.startsWith("!")) {
                 if(message === '!commands') {
                     const commandList = '!' + Object.keys(commands).join(" !");
-                    const commandText = `Ick bin der MercyWing1 geierfogel MercyWing2 und reagiere auf folgende Kommandos: ${commandList} ( ItsBoshyTime Hinweis: BetterTTV Emotes sollten aktiviert sein!)`;
+                    const commandText = `Ick bin der MercyWing1 geierfogel MercyWing2 und reagiere auf folgende Kommandos: ${commandList} ItsBoshyTime Hinweis: BetterTTV Emotes empfohlen KEKW (Mein Quellcode https://github.com/dialogik-tv/chatbot)`;
                     client.say(process.env.CHANNEL, commandText);
                 }
                 else {
                     message = message.substring(1);
                     if(commands.hasOwnProperty(message)) {
                         client.say(process.env.CHANNEL, commands[message]);
+                    } else {
+                        client.say(process.env.CHANNEL, `!${message}? Sagt mir nix... Check mal !commands`);
                     }
                 }
             }
