@@ -6,7 +6,7 @@ const commands = {
     "bttv": "dialogik-TV BetterTTV Emotes findest du auf https://betterttv.com/users/6017e505df6a0665f275a2bf HACKS HACKERJAMS PrintedCircuitBoard HACKER",
     "discord": "Im dialogikTV-Discord versammeln sich dialog2Code Entwickler, PrintedCircuitBoard Bastler und andere Neugierige https://dialogik.tv/discord",
     "github": "Du kannst in vielen der hier gezeigten Programmierprojekte herumstöbern, Bugs finden, Issues melden oder sogar Pull Requests einreichen dialog2Code SeemsGood https://github.com/dialogik-tv",
-    "indivelopment": "Ich develope dir dein ganz individuelles PowerUpL Overlay PowerUpR, welches du z.B. als Browserquelle bei OBS einbinden kannst. So ganz mit Integration in Twitch-Chat/Twitch-API CoolStoryBob Beispiel: das Weather-Overlay für @Freakydna (https://github.com/dialogik-tv/twitch-chat-weather-obs-overlay)",
+    "indivelopment": "Ich develope dir dein ganz individuelles PowerUpL Overlay PowerUpR, welches du z.B. als Browserquelle bei OBS einbinden kannst. So ganz mit Integration in Twitch-Chat/Twitch-API CoolStoryBob Beispiel: das Weather-Overlay für @Freakydna https://github.com/dialogik-tv/twitch-chat-weather-obs-overlay",
     "lurchbot": "Der Lurchbot toadDance lurcht in verschiedenen deutschsprachigen Twitchkanälen (v.a. Science & Technology) und horcht, ob über \"dialogikTV\" geredet wird TheIlluminati Fundstellen landen direkt im !discord (Kanal #twitch-chat-listener), Quellcode ist auf github https://github.com/dialogik-tv/lurchbot",
     // "relevanz": "Der Relevanz-Wert auf dialogik.tv/tools beschreibt die Relevanz des jeweiligen Tools für die Inhaltserzeugung https://twitter.com/dialogikTV/status/1324084071845269506",
     "social": "Du findest uns auf !twitter, es gibt einen eigenen !youtube Kanal und einen !discord. Ausserdem findest du technische Artefakte hier gezeigter Programmiersessions auf !github. Folge uns und vernetze dich!",
@@ -50,7 +50,7 @@ client.on('connected', function(address, port) {
             if(message.startsWith("!")) {
                 if(message === '!commands') {
                     const commandList = '!' + Object.keys(commands).join(" !");
-                    const commandText = `Ick bin der MercyWing1 geierfogel MercyWing2 und reagiere auf folgende Kommandos: ${commandList} ItsBoshyTime Hinweis: BetterTTV Emotes empfohlen KEKW (Mein Quellcode https://github.com/dialogik-tv/chatbot)`;
+                    const commandText = `Ick bin der MercyWing1 geierfogel MercyWing2 und reagiere auf folgende Kommandos: ${commandList} ItsBoshyTime Hinweis: BetterTTV Emotes empfohlen KEKW https://github.com/dialogik-tv/chatbot`;
                     client.say(process.env.CHANNEL, commandText);
                 }
                 else {
