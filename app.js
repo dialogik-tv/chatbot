@@ -14,6 +14,7 @@ const commands = {
     "twitter": "Streamankündigungen, News zur Webseite dialogik.tv sowie aktuelle Neuigkeiten rund um Streaming/Inhaltserzeugung findest du auf https://twitter.com/dialogikTV",
     "tool grasp": "Die Webapplikation grasp soll helfen, keine wichtigen Nachrichten in einem Twitch Chat zu verpassen https://github.com/dialogik-tv/grasp/blob/master/README.md#grasp-the-grasp-out-of-your-twitch-chat",
     "tools": "In unserer sagenhaften, wohlgeformten und ausserordentlich hilfreichen Sammlung von Tools, Apps und Scripten für Streamer und Inhaltserzeuger findest du alles, was dein Technikherz höher schlagen lässt https://dialogik.tv/tools",
+    "wissenschaft": "Sollte ich spannende wissenschaftliche Studien zu Twitch & Co. finden, stelle ich euch diese vor https://dialogik.tv/wissenschaft",
     "wled": "Mit !color [HEX] oder [R,G,B] kannst du die Farbe des WLEDs einstellen. Mit !fx wechselst du den Effect. Mehr Infos auf https://github.com/dialogik-tv/twitch-chat-wled",
     "wsk": "Unter https://dialogik.tv/tools findest du unsere Tools-Datenbank für Content Creatoren, filterbar nach der dialogikTV Content Creation Wertschöpfungskette (WSK) – diese wird hier kurz erklärt https://www.twitch.tv/videos/791753769",
     "youtube": "Auf unserem YouTube-Kanal findest du Mitschnitte unserer Livestreams sowie weitere informative und lehrreiche Videos rund um das Streaming/Inhaltserzeugung sowie zum Webdevelopment https://dialogik.tv/youtube",
