@@ -18,6 +18,10 @@ const commands = {
     "wled": "Mit !color [HEX] oder [R,G,B] kannst du die Farbe des WLEDs einstellen. Mit !fx wechselst du den Effect. Mehr Infos auf https://github.com/dialogik-tv/twitch-chat-wled",
     "wsk": "Unter https://dialogik.tv/tools findest du unsere Tools-Datenbank für Content Creatoren, filterbar nach der dialogikTV Content Creation Wertschöpfungskette (WSK) – diese wird hier kurz erklärt https://www.twitch.tv/videos/791753769",
     "youtube": "Auf unserem YouTube-Kanal findest du Mitschnitte unserer Livestreams sowie weitere informative und lehrreiche Videos rund um das Streaming/Inhaltserzeugung sowie zum Webdevelopment https://dialogik.tv/youtube",
+
+    // Temporary/seasonal commands
+    "umfrage": "Mich würde mal interessieren, was euch so interessieren würde: Quo vadis, dialogikTV? https://forms.gle/1nc4YSyGpgYsGBjj9",
+    "quovadis": "Mich würde mal interessieren, was euch so interessieren würde: Quo vadis, dialogikTV? https://forms.gle/1nc4YSyGpgYsGBjj9"
 };
 
 const options = {
