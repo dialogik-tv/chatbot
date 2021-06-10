@@ -8,6 +8,7 @@ const commands = {
     "github": "Du kannst in vielen der hier gezeigten Programmierprojekte herumstöbern, Bugs finden, Issues melden oder sogar Pull Requests einreichen dialog2Code SeemsGood https://github.com/dialogik-tv",
     "indivelopment": "Ich develope dir dein ganz individuelles PowerUpL Overlay PowerUpR, welches du z.B. als Browserquelle bei OBS einbinden kannst. So ganz mit Integration in Twitch-Chat/Twitch-API CoolStoryBob Beispiel: das Weather-Overlay für @Freakydna https://github.com/dialogik-tv/twitch-chat-weather-obs-overlay",
     "lurchbot": "Der Lurchbot toadDance lurcht in verschiedenen deutschsprachigen Twitchkanälen (v.a. Science & Technology) und horcht, ob über \"dialogikTV\" geredet wird TheIlluminati Fundstellen landen direkt im !discord (Kanal #twitch-chat-listener), Quellcode ist auf github https://github.com/dialogik-tv/lurchbot",
+    "memes": "Verfügbare Memes aktuell KEKW !devil !accidents !pressure !ehrenwort !didnothave !oerrr !wiederholen !strunz !habefertig !verunsichern",
     // "relevanz": "Der Relevanz-Wert auf dialogik.tv/tools beschreibt die Relevanz des jeweiligen Tools für die Inhaltserzeugung https://twitter.com/dialogikTV/status/1324084071845269506",
     "social": "Du findest uns auf !twitter, es gibt einen eigenen !youtube Kanal und einen !discord. Ausserdem findest du technische Artefakte hier gezeigter Programmiersessions auf !github. Folge uns und vernetze dich!",
     // "sub": " erhalten exklusiven dialog2Code github-Zugriff auf ausgewählte Projekte.",
@@ -18,10 +19,6 @@ const commands = {
     "wled": "Mit !color [HEX] oder [R,G,B] kannst du die Farbe des WLEDs einstellen. Mit !fx wechselst du den Effect. Mehr Infos auf https://github.com/dialogik-tv/twitch-chat-wled",
     "wsk": "Unter https://dialogik.tv/tools findest du unsere Tools-Datenbank für Content Creatoren, filterbar nach der dialogikTV Content Creation Wertschöpfungskette (WSK) – diese wird hier kurz erklärt https://www.twitch.tv/videos/791753769",
     "youtube": "Auf unserem YouTube-Kanal findest du Mitschnitte unserer Livestreams sowie weitere informative und lehrreiche Videos rund um das Streaming/Inhaltserzeugung sowie zum Webdevelopment https://dialogik.tv/youtube",
-
-    // Temporary/seasonal commands
-    "umfrage": "Mich würde mal interessieren, was euch so interessieren würde: Quo vadis, dialogikTV? https://forms.gle/1nc4YSyGpgYsGBjj9",
-    "quovadis": "Mich würde mal interessieren, was euch so interessieren würde: Quo vadis, dialogikTV? https://forms.gle/1nc4YSyGpgYsGBjj9"
 };
 
 const options = {
