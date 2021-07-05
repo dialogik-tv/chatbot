@@ -8,7 +8,7 @@ const commands = {
     "github": "Du kannst in vielen der hier gezeigten Programmierprojekte herumstöbern, Bugs finden, Issues melden oder sogar Pull Requests einreichen dialog2Code SeemsGood https://github.com/dialogik-tv",
     "indivelopment": "Ich develope dir dein ganz individuelles PowerUpL Overlay PowerUpR, welches du z.B. als Browserquelle bei OBS einbinden kannst. So ganz mit Integration in Twitch-Chat/Twitch-API CoolStoryBob Beispiel: das Weather-Overlay für @Freakydna https://github.com/dialogik-tv/twitch-chat-weather-obs-overlay",
     "lurchbot": "Der Lurchbot toadDance lurcht in verschiedenen deutschsprachigen Twitchkanälen (v.a. Science & Technology) und horcht, ob über \"dialogikTV\" geredet wird TheIlluminati Fundstellen landen direkt im !discord (Kanal #twitch-chat-listener), Quellcode ist auf github https://github.com/dialogik-tv/lurchbot",
-    "memes": "Verfügbare Memes aktuell KEKW !devil !accidents !pressure !ehrenwort !didnothave !oerrr !wiederholen !strunz !habefertig !verunsichern",
+    "memes": "Verfügbare Memes aktuell KEKW !gelernt !oerrr !ehrenwort !pressure !accidents !wiederholen !strunz !habefertig !verunsichern !nerven !devil",
     // "relevanz": "Der Relevanz-Wert auf dialogik.tv/tools beschreibt die Relevanz des jeweiligen Tools für die Inhaltserzeugung https://twitter.com/dialogikTV/status/1324084071845269506",
     "social": "Du findest uns auf !twitter, es gibt einen eigenen !youtube Kanal und einen !discord. Ausserdem findest du technische Artefakte hier gezeigter Programmiersessions auf !github. Folge uns und vernetze dich!",
     // "sub": " erhalten exklusiven dialog2Code github-Zugriff auf ausgewählte Projekte.",
